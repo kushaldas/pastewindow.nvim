@@ -5,8 +5,9 @@ I am using this to send to a terminal, helpful for teaching.
 
 ### Setup
 
->lua
+```
    require('pastewindow').setup()
+```
 
 ### Usage
 
