@@ -8,20 +8,19 @@ I am using this to send to a terminal, helpful for teaching.
  - Packer
 
    ```lua
-   use "kushaldas/pastewindow"
+   use "kushaldas/pastewindow.nvim"
    ```
 
  - [lazy.nvim](https://github.com/folke/lazy.nvim)
    
    ```lua
    {
-	   "kushaldas/pastewindow"
+	   "kushaldas/pastewindow.nvim"
    }
    ```
 
 ### Setup
 
-NOTE: calling setup is not necessary.
 
 ```
    require('pastewindow').setup()
