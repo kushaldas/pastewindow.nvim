@@ -7,7 +7,6 @@ I am using this to send to a terminal, helpful for teaching.
 
 >lua
    require('pastewindow').setup()
-<
 
 ### Usage
 
