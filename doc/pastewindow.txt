@@ -1,0 +1,25 @@
+===================================================================================
+								   *pastewindow*
+
+This is a small plugin to allow you to send the current line or a visual selection
+to a predefined window. I am using it to send to the terminal, thus making
+it a good tool for teaching session.
+
+Module Setup:                                               *pastewindow.setup()*
+
+>lua
+   require('pastewindow').setup()
+<
+
+COMMANDS
+    :SetPasteWindow
+    	Run this command in the target window, and then you can use the following keybinding.
+
+KEYBINDINGS
+
+	<leader>tl	To send the current line to the target window.
+	<leader>tv	To send current visual selection to the target window.
+
+
+
+vim:tw=78:ts=8:noet:ft=help:norl:
